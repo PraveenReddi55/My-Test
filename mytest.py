@@ -3,7 +3,7 @@ import streamlit as st
 import numpy as np
 import pandas as pd
 
-st.header("My test App")
+st.header("mytest App")
 
 chart_data = pd.DataFrame(
      np.random.randn(20, 3),
