@@ -1,9 +1,9 @@
-%%writefile myfirstapp.py
+%%writefile mytest.py
 import streamlit as st
 import numpy as np
 import pandas as pd
 
-st.header("My first Streamlit App")
+st.header("My test App")
 
 chart_data = pd.DataFrame(
      np.random.randn(20, 3),
